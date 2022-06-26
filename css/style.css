@@ -145,3 +145,73 @@ img {
 .right-button button:focus {
     border: none;
 }
+
+.contacts {
+    display: flex;
+}
+
+.contacts img {
+    width: 100px;
+}
+
+.phone-num {
+    display: flex;
+    width: 50%;
+    margin: 50px 10px;
+    margin-left: 25px;
+}
+
+.link-num {
+    color: #000;
+    font-size: 70px;
+    margin: 11px 20px;
+}
+
+.insta-25 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+    
+}
+
+.face-25 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+
+.GEN {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin: 10px 0;
+}
+
+.bolt-25 {
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pyszne-25 {
+    width: 25%;
+    margin: 10px;
+}
+
+.uber-25 {
+    width: 25%;
+    margin: 10px;
+}
+
+.glovo-25 {
+    width: 25%;
+    margin: 10px;
+}
+
+.parthners img {
+    width: 100%;
+    max-height: 450px;
+}
