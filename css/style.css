@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px/1.25 Lato, Arial, Tahoma, sans-serif;
+    color: #848789;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.conteiner {
+    max-width: 1630px;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.menu a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menu ul {
+    margin: 40px 95px;
+}
+
+.left-menu {
+    display: flex;
+    width: 50%;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.action {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin-top: 500px;
+}
+
+.left-button {
+    width: 50%;
+    margin-left: 110px;
+}
+
+.right-button {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 110px;
+}
+
+/*Левая кнопка*/
+.left-button button {
+    width: 190px;
+    max-width: 100%;
+    font-size: 24px;
+    height: 70px;
+    max-height: 100%;
+    background: #eb1c24;
+    border: none;
+    color: #fff;
+    margin-left: 8px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.left-button button:hover {
+    background: #fff;
+    color: #929292;
+    border: none;
+    -webkit-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    cursor: pointer;
+}
+
+.left-button button:focus {
+    border: none;
+}
+
+/*Правая кнопка*/
+
+.right-button button {
+    width: 190px;
+    max-width: 100%;
+    font-size: 24px;
+    height: 70px;
+    max-height: 100%;
+    background: #eb1c24;
+    border: none;
+    color: #fff;
+    margin-left: 8px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.right-button button:hover {
+    background: #fff;
+    color: #929292;
+    border: none;
+    -webkit-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    cursor: pointer;
+}
+
+.right-button button:focus {
+    border: none;
+}
