@@ -10,6 +10,10 @@ body {
     color: #848789;
 }
 
+.terminal {
+    margin-right: -18px;
+}
+
 ul {
     list-style: none;
 
@@ -73,6 +77,10 @@ img {
     width: 100%;
     display: flex;
     margin-top: 500px;
+}
+
+.action2 {
+    display: none;
 }
 
 .left-button {
@@ -328,6 +336,16 @@ img {
 }
 
 @media (max-width: 1160px) {
+
+    .action2 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
     .backend2 {
         display: block;
         margin-top: -7px;
@@ -347,11 +365,7 @@ img {
     }
 
     .action {
-        position: absolute;
-        width: 100%;
-        display: flex;
-        margin-top: 150px;
-        flex-direction: column;
+        display: none;
     }
 
     .left-button {
