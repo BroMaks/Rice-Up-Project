@@ -17,7 +17,7 @@ $(document).ready(function(){
       prevEl: '.swiper-button-prev',
     },
     autoplay: {
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false
     },
 })
@@ -30,7 +30,7 @@ $(document).ready(function(){
               clickable: true
           },
           autoplay: {
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false
           },
       });
