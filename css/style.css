@@ -41,8 +41,18 @@ img {
     clear: both;
 }
 
+.terminal {
+    overflow: hidden;
+}
+
 .conteiner {
     max-width: 1630px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
 }
 
 .menu {
@@ -54,7 +64,12 @@ img {
 .menu a {
     font-size: 50px;
     color: #fff;
-    text-decoration: underline;
+}
+
+/*После наведения мыши*/
+
+.menu a:hover {
+    background: #eb1c24;
 }
 
 .menu ul {
@@ -156,6 +171,7 @@ img {
 
 .contacts {
     display: flex;
+    margin-top: 50px;
 }
 
 .contacts img {
@@ -341,7 +357,7 @@ img {
         position: relative;
         width: 100%;
         display: flex;
-        margin-top: 50px;
+        margin-top: 200px;
         margin-bottom: 50px;
         flex-direction: column;
     }
@@ -393,6 +409,10 @@ img {
         width: 450px;
         height: 150px;
         background: #f82929;
+    }
+
+    .GEN {
+        margin-top: 110px;
     }
 
     .deliv-text h5 {

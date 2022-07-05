@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
 	<title>RICE UP</title>
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo-up.jpg" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="terminal">
@@ -24,25 +26,27 @@
                             <li><a href="#" class="">Menu</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#" class="">Kontakt</a></li>
+                            <li><a href="#contacts" class="">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="action">
                     <div class="left-button">
+                        <a href="https://glovoapp.com/pl/pl/wroclaw/oh-my-rice-wro/">
                         <button>Zamów online</button>
+                        </a>
                     </div>
                     <div class="right-button">
+                        <a href="https://sites.google.com/view/menutestkaren">
                         <button>Zobać menu</button>
+                        </a>
                     </div>
                 </div>
-                <img src="img/green-back.jpg">
                 <div class="action2">
                     <div class="left-button">
-                        <button>Zamów online</button>
-                    </div>
-                    <div class="right-button">
-                        <button>Zobać menu</button>
+                        <a href="https://glovoapp.com/pl/pl/wroclaw/oh-my-rice-wro/">
+                            <button>Zamów online</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -50,10 +54,21 @@
     </header>
     <main>
         <div class="container">
-            <div class="contacts">
+            <section class="section main-slider">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/banner3.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section>
+            <div class="contacts" name="contacts">
                 <div class="phone-num">
                     <div class="phone-icon">
-                        <a href="tel:+48533037863">
+                        <a href="tel:+48533037863" name="contacts">
                             <img src="img/phone-icon.png" alt="">
                         </a>
                     </div>
@@ -77,19 +92,29 @@
             <div class="parthners">
                 <div class="GEN">
                     <div class="bolt-20">
+                        <a href="#">
                         <img src="img/bolt.png">
+                        </a>
                     </div>
                     <div class="wolt-20">
+                        <a href="#">
                         <img src="img/wolt.png">
+                        </a>
                     </div>
                     <div class="pyszne-20">
+                        <a href="#">
                         <img src="img/pyszne.png">
+                        </a>
                     </div>
                     <div class="uber-20">
+                        <a href="#">
                         <img src="img/uber.jpg">
+                        </a>
                     </div>
                     <div class="glovo-20">
+                        <a href="https://glovoapp.com/pl/pl/wroclaw/oh-my-rice-wro/">
                         <img src="img/glovo.png">
+                        </a>
                     </div>
                 </div>
                 <img src="img/kara.jpg">
@@ -123,13 +148,8 @@
                 </div>
                 <div class="text-down">
                     <h2>Godziny otwarcia</h2>
-                    <h3>Pon: 10:00 - 19:00</h3>
-                    <h3>Wt: 10:00 - 19:00</h3>
-                    <h3>Sr: 10:00 - 19:00</h3>
-                    <h3>Czw: 10:00 - 19:00</h3>
-                    <h3>Pia: 10:00 - 19:00</h3>
-                    <h3>Sob: 10:00 - 19:00</h3>
-                    <h3>Nie: 10:00 - 19:00</h3>
+                    <h3>PN-PT: 11:00 - 20:00</h3>
+                    <h3>SB-ND: 12:00 - 19:00</h3>
                 </div>
                 </div>
                 <img src="img/kara.jpg" class="backend">
@@ -138,5 +158,8 @@
         </div>
     </footer>
 </div>
+<script src="js/jquery.3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
