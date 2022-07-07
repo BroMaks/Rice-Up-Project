@@ -322,6 +322,17 @@ img {
     display: none;
 }
 
+.local {
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.local p {
+    font-family: DejaVu Sans Mono;
+    font-size: 200%;
+}
+
 @media (max-width: 1411px) {
     .menu {
         display: none;
